@@ -2,11 +2,14 @@
 ### 반도체 제조공정 데이터 분석  : 반도체 제조 데이터를 기반으로 불량품 분류예측하기 
 
 
-# Team Intro 
+# Intro 
+### 🗓️ Date 
+Project term : 2020.10.28 ~ 2020.12.16 </br>
+Presentation Date : 2020.12.16 </br>
 ### :man: Professor 
   한양대학교 ERICA 로봇공학과 윤종완 교수님 
 ### 👥 Team member 
-  한양대학교 ERICA 산업경영공학과 2018042660 노지영 <br/>
+  한양대학교 ERICA 산업경영공학과 2018042660 노지영  <br/>
   한양대학교 ERICA 로봇공학과 2015041730 여태수 
   
   
@@ -40,7 +43,7 @@ csv file : uci-secom.csv
     - &nbsp;&nbsp; 2.4.1 50% 이상 Null값을 가진 열 제거
     - &nbsp;&nbsp; 2.4.2나머지 null값을 다중대치법을 사용하여 예측값으로 채움
   - &nbsp; 2.5 Oultlier 확인
-    - nbsp;&nbsp; 2.5.1이상치 보정
+    - &nbsp;&nbsp; 2.5.1이상치 보정
   - &nbsp; 2.6스케일링
   - &nbsp; 2.7Recursive Feature Elimination(RFE)의 피쳐 Rank를 통해 피쳐중요도 확인
   - &nbsp; 2.8 oversampling + train_test 분리
@@ -50,6 +53,8 @@ csv file : uci-secom.csv
   - &nbsp; 3.2 random_state from 1 to 100
 
 # Result
+### ✅ Source Code 
+Colab -> https://colab.research.google.com/drive/1ibSSZ5al6CTNbzPseiDajEsx9ebIu8GI?usp=sharing
 ### ✅ AUC Score 
 0.860809
 ### ✅ Final Evaluation
