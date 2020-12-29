@@ -13,7 +13,7 @@
 # Data Set 
 ### ✅ Source 
 https://www.kaggle.com/paresh2047/uci-semcom <br/>
-csv file : uci-semcom.csv
+csv file : uci-secom.csv
 
 ### ✅ Characteristics of the dataset 
 - Data Set Characteristics: Multivariate
